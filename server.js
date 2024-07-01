@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 // Logger Middleware
-
+app.use(logger);
 
 // setup static folder
 // app.use(express.static(path.join(__dirname, 'public')));
