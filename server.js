@@ -27,5 +27,5 @@ app.use('/api/posts', posts);
 // Error Handler
 app.use(notFound);
 app.use(errorHandler);
-app.use(notFound);
+
 app.listen(port, () => console.log(`Server is running on port ${port}`));
